@@ -12,7 +12,7 @@
 <% end %>
 
 
-  <div class="field <%= ' field_with_errors' 
+  <div class="field <%= ' field_with_errors'
   if @author.errors[:name].any? %>">
     <%= label_tag "name", "Name", @author.name %>
     <%= text_field_tag "name" %>
